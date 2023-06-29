@@ -1,0 +1,21 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.2+cu113
+#spacy==3.0
+torchtext
+scikit-learn==0.23.2
+pandas==1.1.2
+tensorboard
+sentencepiece
+protobuf<=3.20.1
+nltk
+datasets>=1.17.0
+absl-py
+rouge-score
+pandas
+#transformers>=4.27.0
+wandb
+makefun>=1.14.0
+jupyterlab
+wordninja
+accelerate
+evaluate

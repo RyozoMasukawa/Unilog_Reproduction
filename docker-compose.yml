@@ -1,0 +1,22 @@
+version: '3'
+services:
+  python3:
+      restart: always
+      build:
+         context: .
+         shm_size: '2gb'
+      shm_size: '2gb'
+      container_name: 'ryozo_LAC_unlimiformer_env'
+      working_dir: '/root'
+      tty: true
+      ports:
+          - 18850:8888
+      volumes:
+          - .:/home/
+      deploy:
+          resources:
+              reservations:
+                  devices:
+                     - driver: nvidia
+                       count: all
+                       capabilities: [gpu]
