@@ -19,3 +19,8 @@ jupyterlab
 wordninja
 accelerate
 evaluate
+openai
+scikit-learn
+matplotlib
+seaborn
+fasttext
