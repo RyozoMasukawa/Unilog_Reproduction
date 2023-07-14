@@ -26,7 +26,7 @@ In addition the log summary pair dataset can be downloaded from this page([https
 ## Anomaly Detection on HDFS dataset
 [log_anomaly_detect.ipynb](./log_anomaly_detect.ipynb)
 
-#ChatGPT based Root Cause Analysis(RCA)
+# ChatGPT based Root Cause Analysis(RCA)
 
 Inspired from the paper "Empowering Practical Root Cause Analysis by Large Language Models for Cloud Incidents"([https://arxiv.org/abs/2305.15778](https://arxiv.org/abs/2305.15778)), I also implemented a chatGPT-based RCA tool using CoT and kNN algorithm with fastText vectorization. The source code is available from the notebook below.
 
