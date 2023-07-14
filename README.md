@@ -6,6 +6,10 @@ I attempted to replicate a versatile log analysis model called Unilog in this [U
 
 There are many areas for improvement. I would appreciate any advice. Thank you! 🤗
 
+# Unilog Model
+I implemented the architecture of Unilog by quoting codes from [Huggingface Transformers Bert](./hf_transformers/src/transformers/bert/modeling_bert.py)
+
+
 
 
 
