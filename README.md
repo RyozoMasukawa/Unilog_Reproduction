@@ -6,8 +6,8 @@ I attempted to replicate a versatile log analysis model called Unilog in this [U
 
 There are many areas for improvement. I would appreciate any advice. Thank you! 🤗
 
-# Unilog Model Src Code
-I implemented the architecture of Unilog by quoting codes from [Huggingface Transformers Bert](./hf_transformers/src/transformers/models/bert/modeling_bert.py)
+# Unilog Model Architecture Source Code
+I implemented the architecture of Unilog by referencing codes from [Huggingface Transformers BERT](./hf_transformers/src/transformers/models/bert/modeling_bert.py)
 
 # Dataset
 The dataset and pretrained model should be saved in [./logdata](./logdata)
